@@ -1,0 +1,81 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f7d2d2;
+}
+
+.addTask{
+  background-color: rgb(0, 162, 255);
+  padding: 70px 180px;
+  min-height:max-content;
+  margin-bottom: 20px;
+  box-shadow: 12px 16px 28px black;
+  border-radius: 8px;
+}
+.task {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: white;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 8px;
+  overflow:visible;
+  box-shadow: 12px 16px 28px black; /* Prevent text from going outside the box */
+   /* Control the maximum width of the task */
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.completed {
+  background-color: #0de22d; /* Green color */
+  padding: 20px 20px;
+}
+
+.not-completed {
+  background-color: #d14c45; 
+  padding: 20px 20px;/* Red color */
+}
+button{
+  background:none;
+  border-radius: 5px;
+  padding: 8px 13px;
+  margin: 20px;
+  color: rgb(14, 14, 14);
+  font-weight: bolder;
+  background-color: rgb(146, 37, 247);
+}
+input{
+  padding: 10px 30px;
+  background-color: #c7f9ff;
+}
+
+.buttons {
+  margin-left: auto;
+  display: flex;
+  gap: 5px;
+}
+.footer{
+  color: black;
+  font-weight: bolder;
+  position:static;
+  bottom: 0;
+  
+  
+}
+
+
+
+
+
+
+
+
+
